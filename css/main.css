@@ -1,0 +1,43 @@
+body, input {
+	font: 1em Tahoma, sans-serif;
+}
+.container {
+	width: 100%;
+	max-width: 600px;
+	text-align: center;
+	margin: 250px auto 0 auto;
+}
+.title {
+	font-weight: normal;
+}
+input {
+	background-color: #fff;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	padding:8px;
+	transition: all 0.4s ease-in-out;
+}
+input[type='url'] {
+	width: 80%;
+}
+input[type='submit']:hover {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    color: #fff;
+}
+.msg {
+    padding: 10px 0px;
+    color: #fff;
+    text-align: center;
+}
+.msg.success {
+    background-color: #4ce85f;
+}
+.msg.error {
+    background-color: #ff3737;
+}
+.msg a {
+	text-decoration: none;
+    color: #ec2828;
+    font-size: 0.9em;
+}
